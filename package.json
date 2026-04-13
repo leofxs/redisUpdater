@@ -1,8 +1,4 @@
 {
-  "name": "cookie-refresher",
-  "version": "1.0.0",
-  "description": "Cookie Refresher",
-  "main": "index.js",
   "dependencies": {
     "playwright": "^1.42.0",
     "@upstash/redis": "^1.28.4"

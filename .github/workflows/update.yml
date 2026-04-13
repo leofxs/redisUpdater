@@ -1,8 +1,8 @@
 name: Refresh Cookies
 on:
   schedule:
-    - cron: '*/5 * * * *'  
-  workflow_dispatch: 
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
 
 jobs:
   refresh:

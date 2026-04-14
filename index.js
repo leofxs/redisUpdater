@@ -37,7 +37,7 @@ const redis = new Redis({
 
     const DatatoStore = {};
     if (roblosecurity) DatatoStore["ROBLO"] = roblosecurity;
-    if (rbxcsrf4) DatatoStore["RBXCSRF4"] = rbxcsrf4;
+    // if (rbxcsrf4) DatatoStore["RBXCSRF4"] = rbxcsrf4;
 
     if (Object.keys(DatatoStore).length > 0) {
       await redis.mset(DatatoStore);
